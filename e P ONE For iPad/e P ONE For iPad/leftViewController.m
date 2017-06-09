@@ -49,7 +49,7 @@
 //    singleTapTwo.delegate = self;
    // [titleImageView addGestureRecognizer:singleTapTwo];
 
-    NSLog(@"git fenzhi ");
+    NSLog(@"git fenzhi sss");
     
     self.navigationController.navigationBar.translucent = NO;
     self.splitViewController.maximumPrimaryColumnWidth = 300;
