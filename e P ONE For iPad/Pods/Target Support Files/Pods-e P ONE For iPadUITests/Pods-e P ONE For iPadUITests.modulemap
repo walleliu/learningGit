@@ -1,0 +1,6 @@
+framework module Pods_e_P_ONE_For_iPadUITests {
+  umbrella header "Pods-e P ONE For iPadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

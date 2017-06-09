@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14A359FC512E452A99C64450096716A9 /* Pods-e P ONE For iPadUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C30FD4F8B92E24B5972EEEF53FFCFF31 /* Pods-e P ONE For iPadUITests-dummy.m */; };
+		1FD9C107FA85E469B4F30321EE442398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2BE84FC806893D32075048C6A22EAC8D /* Pods-e P ONE For iPadTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D49C618425FE60A79BDDD5A91E05C /* Pods-e P ONE For iPadTests-dummy.m */; };
+		45C8A50AF9633445C220906354C30F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		78C09B3E2F2A43014AF4F57C12B62CA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8723A5DCA449B94F14BF66E2FCD8D008 /* Pods-e P ONE For iPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78503B704310A7745403B29B028FC1B3 /* Pods-e P ONE For iPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		994C80A0E7BEAB717E66D654994CC937 /* Pods-e P ONE For iPadTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A283E217876DBC3779B638253D7576C /* Pods-e P ONE For iPadTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50D1E8517418EF902B3114DE715B09D /* Pods-e P ONE For iPadUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF8348E087CDF0569931D890D2979661 /* Pods-e P ONE For iPadUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D530F85FDFDFD4EFAEF4099C152178E4 /* Pods-e P ONE For iPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A1A8D0EA4027830D96A2C66EB4DDE1 /* Pods-e P ONE For iPad-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1054E0B3FDB672470EE9B2BCC370C826 /* Pods-e P ONE For iPad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-e P ONE For iPad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A8B6693F233E830AE11FF5726642AD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3A5636E0254C90C39C8EB70F7816DB /* Pods_e_P_ONE_For_iPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_e_P_ONE_For_iPadUITests.framework; path = "Pods-e P ONE For iPadUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2111AB7FB53CBB5BE3589A64681E3BB9 /* Pods-e P ONE For iPadUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-e P ONE For iPadUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		275852FFDE94C99216FA1EA1A1AC6DC7 /* Pods-e P ONE For iPadTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPadTests-frameworks.sh"; sourceTree = "<group>"; };
+		27C427B527CEAC53831E7B45487998AB /* Pods-e P ONE For iPad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPad-frameworks.sh"; sourceTree = "<group>"; };
+		28A1A8D0EA4027830D96A2C66EB4DDE1 /* Pods-e P ONE For iPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-e P ONE For iPad-dummy.m"; sourceTree = "<group>"; };
+		38AC6EF5EF1F31CEB15AA1B7EC20ECCB /* Pods-e P ONE For iPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB65EBD5432CC93ED4B0BD4D8DD8CD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE9B42BEAA486F631A86FF54240DA6B /* Pods-e P ONE For iPadUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPadUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3D4D49C618425FE60A79BDDD5A91E05C /* Pods-e P ONE For iPadTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-e P ONE For iPadTests-dummy.m"; sourceTree = "<group>"; };
+		40E570D7F10A7098353C199820ED6418 /* Pods-e P ONE For iPadUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-e P ONE For iPadUITests.modulemap"; sourceTree = "<group>"; };
+		48D945AFA5983A2E7351242AA07FB3CA /* Pods-e P ONE For iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPad.release.xcconfig"; sourceTree = "<group>"; };
+		4A66A8A4F5EC413DF41B0ED32CA4BDF0 /* Pods-e P ONE For iPadUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-e P ONE For iPadUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CF40E03920B2B4BBB738BBEAF82A60A /* Pods-e P ONE For iPadTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-e P ONE For iPadTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52156A133D02316BD7D054898A576B64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5702D28A3017F3B8742D28CD800BF9AC /* Pods-e P ONE For iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A283E217876DBC3779B638253D7576C /* Pods-e P ONE For iPadTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-e P ONE For iPadTests-umbrella.h"; sourceTree = "<group>"; };
+		7515362692ED4F4D2749BDA53F56765A /* Pods-e P ONE For iPadUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPadUITests-resources.sh"; sourceTree = "<group>"; };
+		78503B704310A7745403B29B028FC1B3 /* Pods-e P ONE For iPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-e P ONE For iPad-umbrella.h"; sourceTree = "<group>"; };
+		7E169BB55A1B0E61A4672CA8645134A4 /* Pods-e P ONE For iPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-e P ONE For iPad.modulemap"; sourceTree = "<group>"; };
+		87DD5F50DB2C6F66906C72D7FE6CBD3D /* Pods-e P ONE For iPadTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-e P ONE For iPadTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89E2BB8A31D6955EAFE619681252873A /* Pods-e P ONE For iPad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPad-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A001233432261392545AEBAAA5515AB /* Pods-e P ONE For iPad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-e P ONE For iPad-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C9A2523D225CC03ADFB8DF1B87035CD /* Pods-e P ONE For iPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7CEA0EB4EBAF1893E749C90D90BB137 /* Pods_e_P_ONE_For_iPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_e_P_ONE_For_iPadTests.framework; path = "Pods-e P ONE For iPadTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8348E087CDF0569931D890D2979661 /* Pods-e P ONE For iPadUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-e P ONE For iPadUITests-umbrella.h"; sourceTree = "<group>"; };
+		C30FD4F8B92E24B5972EEEF53FFCFF31 /* Pods-e P ONE For iPadUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-e P ONE For iPadUITests-dummy.m"; sourceTree = "<group>"; };
+		CF9E0D0775377B98585013BAE5883CF0 /* Pods-e P ONE For iPadTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-e P ONE For iPadTests.modulemap"; sourceTree = "<group>"; };
+		E33DAA9FBC7A5585A0CE65B4380F22F2 /* Pods-e P ONE For iPadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPadTests.release.xcconfig"; sourceTree = "<group>"; };
+		EABE85ADAC9AD13A6E0A0DEFF20B430A /* Pods_e_P_ONE_For_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_e_P_ONE_For_iPad.framework; path = "Pods-e P ONE For iPad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C41E65967F482FE90C194DB7319E96 /* Pods-e P ONE For iPadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-e P ONE For iPadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE71AD5BFC1725CB526B39C00A7AE983 /* Pods-e P ONE For iPadTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-e P ONE For iPadTests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7DE3536B0F86E05CE06C86ED6FC716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD9C107FA85E469B4F30321EE442398 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14388EAC34D71968AD9953D94345D8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C8A50AF9633445C220906354C30F2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A896FE669AE4FA0DC98CCDCFD13B8D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C09B3E2F2A43014AF4F57C12B62CA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0741523DF15270EDD7B10A825075EB4A /* Pods-e P ONE For iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BB65EBD5432CC93ED4B0BD4D8DD8CD2 /* Info.plist */,
+				40E570D7F10A7098353C199820ED6418 /* Pods-e P ONE For iPadUITests.modulemap */,
+				2111AB7FB53CBB5BE3589A64681E3BB9 /* Pods-e P ONE For iPadUITests-acknowledgements.markdown */,
+				4A66A8A4F5EC413DF41B0ED32CA4BDF0 /* Pods-e P ONE For iPadUITests-acknowledgements.plist */,
+				C30FD4F8B92E24B5972EEEF53FFCFF31 /* Pods-e P ONE For iPadUITests-dummy.m */,
+				3BE9B42BEAA486F631A86FF54240DA6B /* Pods-e P ONE For iPadUITests-frameworks.sh */,
+				7515362692ED4F4D2749BDA53F56765A /* Pods-e P ONE For iPadUITests-resources.sh */,
+				BF8348E087CDF0569931D890D2979661 /* Pods-e P ONE For iPadUITests-umbrella.h */,
+				38AC6EF5EF1F31CEB15AA1B7EC20ECCB /* Pods-e P ONE For iPadUITests.debug.xcconfig */,
+				9C9A2523D225CC03ADFB8DF1B87035CD /* Pods-e P ONE For iPadUITests.release.xcconfig */,
+			);
+			name = "Pods-e P ONE For iPadUITests";
+			path = "Target Support Files/Pods-e P ONE For iPadUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				858AD16E9D52501DDB54735E6356D2F9 /* Products */,
+				8640EA7C27400829AF0FDB7A67BAEDE3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		858AD16E9D52501DDB54735E6356D2F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABE85ADAC9AD13A6E0A0DEFF20B430A /* Pods_e_P_ONE_For_iPad.framework */,
+				A7CEA0EB4EBAF1893E749C90D90BB137 /* Pods_e_P_ONE_For_iPadTests.framework */,
+				1C3A5636E0254C90C39C8EB70F7816DB /* Pods_e_P_ONE_For_iPadUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8640EA7C27400829AF0FDB7A67BAEDE3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB4F840465310D64C2EF98ABB35E2A80 /* Pods-e P ONE For iPad */,
+				E9133AFDC0EE67B8AF38B544421D10EB /* Pods-e P ONE For iPadTests */,
+				0741523DF15270EDD7B10A825075EB4A /* Pods-e P ONE For iPadUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB4F840465310D64C2EF98ABB35E2A80 /* Pods-e P ONE For iPad */ = {
+			isa = PBXGroup;
+			children = (
+				52156A133D02316BD7D054898A576B64 /* Info.plist */,
+				7E169BB55A1B0E61A4672CA8645134A4 /* Pods-e P ONE For iPad.modulemap */,
+				1054E0B3FDB672470EE9B2BCC370C826 /* Pods-e P ONE For iPad-acknowledgements.markdown */,
+				9A001233432261392545AEBAAA5515AB /* Pods-e P ONE For iPad-acknowledgements.plist */,
+				28A1A8D0EA4027830D96A2C66EB4DDE1 /* Pods-e P ONE For iPad-dummy.m */,
+				27C427B527CEAC53831E7B45487998AB /* Pods-e P ONE For iPad-frameworks.sh */,
+				89E2BB8A31D6955EAFE619681252873A /* Pods-e P ONE For iPad-resources.sh */,
+				78503B704310A7745403B29B028FC1B3 /* Pods-e P ONE For iPad-umbrella.h */,
+				5702D28A3017F3B8742D28CD800BF9AC /* Pods-e P ONE For iPad.debug.xcconfig */,
+				48D945AFA5983A2E7351242AA07FB3CA /* Pods-e P ONE For iPad.release.xcconfig */,
+			);
+			name = "Pods-e P ONE For iPad";
+			path = "Target Support Files/Pods-e P ONE For iPad";
+			sourceTree = "<group>";
+		};
+		E9133AFDC0EE67B8AF38B544421D10EB /* Pods-e P ONE For iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A8B6693F233E830AE11FF5726642AD5 /* Info.plist */,
+				CF9E0D0775377B98585013BAE5883CF0 /* Pods-e P ONE For iPadTests.modulemap */,
+				87DD5F50DB2C6F66906C72D7FE6CBD3D /* Pods-e P ONE For iPadTests-acknowledgements.markdown */,
+				4CF40E03920B2B4BBB738BBEAF82A60A /* Pods-e P ONE For iPadTests-acknowledgements.plist */,
+				3D4D49C618425FE60A79BDDD5A91E05C /* Pods-e P ONE For iPadTests-dummy.m */,
+				275852FFDE94C99216FA1EA1A1AC6DC7 /* Pods-e P ONE For iPadTests-frameworks.sh */,
+				FE71AD5BFC1725CB526B39C00A7AE983 /* Pods-e P ONE For iPadTests-resources.sh */,
+				6A283E217876DBC3779B638253D7576C /* Pods-e P ONE For iPadTests-umbrella.h */,
+				F7C41E65967F482FE90C194DB7319E96 /* Pods-e P ONE For iPadTests.debug.xcconfig */,
+				E33DAA9FBC7A5585A0CE65B4380F22F2 /* Pods-e P ONE For iPadTests.release.xcconfig */,
+			);
+			name = "Pods-e P ONE For iPadTests";
+			path = "Target Support Files/Pods-e P ONE For iPadTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C387EAAC77697CBAB60207903B4C500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994C80A0E7BEAB717E66D654994CC937 /* Pods-e P ONE For iPadTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEB8E2FF161527D87CC45E4E3AA351A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8723A5DCA449B94F14BF66E2FCD8D008 /* Pods-e P ONE For iPad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A1EC2A4EA97D09F9C608CBEADB298A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50D1E8517418EF902B3114DE715B09D /* Pods-e P ONE For iPadUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		099207E4AA25D759EF018CB4D34723D9 /* Pods-e P ONE For iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F4673BE7D8784BC4601330F34D167D /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPadTests" */;
+			buildPhases = (
+				89F0B2D50D302518DCAD9BE71B39CA23 /* Sources */,
+				A896FE669AE4FA0DC98CCDCFD13B8D94 /* Frameworks */,
+				5C387EAAC77697CBAB60207903B4C500 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-e P ONE For iPadTests";
+			productName = "Pods-e P ONE For iPadTests";
+			productReference = A7CEA0EB4EBAF1893E749C90D90BB137 /* Pods_e_P_ONE_For_iPadTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E25CB57E2C0D56C397B0BEBE904166E /* Pods-e P ONE For iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD09CC4B9BA9AFC3E05267CEE7106E87 /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPadUITests" */;
+			buildPhases = (
+				A01794414CCB8FD8696F30FDBB57287E /* Sources */,
+				14388EAC34D71968AD9953D94345D8C8 /* Frameworks */,
+				E6A1EC2A4EA97D09F9C608CBEADB298A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-e P ONE For iPadUITests";
+			productName = "Pods-e P ONE For iPadUITests";
+			productReference = 1C3A5636E0254C90C39C8EB70F7816DB /* Pods_e_P_ONE_For_iPadUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD6440AC8621337A0FE50BE303F563F2 /* Pods-e P ONE For iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C633AB9F117EDD261862D4EAB12077 /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPad" */;
+			buildPhases = (
+				41E5F4BDC2EA88873A9EA21A4B4111B4 /* Sources */,
+				0D7DE3536B0F86E05CE06C86ED6FC716 /* Frameworks */,
+				5DEB8E2FF161527D87CC45E4E3AA351A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-e P ONE For iPad";
+			productName = "Pods-e P ONE For iPad";
+			productReference = EABE85ADAC9AD13A6E0A0DEFF20B430A /* Pods_e_P_ONE_For_iPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 858AD16E9D52501DDB54735E6356D2F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6440AC8621337A0FE50BE303F563F2 /* Pods-e P ONE For iPad */,
+				099207E4AA25D759EF018CB4D34723D9 /* Pods-e P ONE For iPadTests */,
+				6E25CB57E2C0D56C397B0BEBE904166E /* Pods-e P ONE For iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E5F4BDC2EA88873A9EA21A4B4111B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D530F85FDFDFD4EFAEF4099C152178E4 /* Pods-e P ONE For iPad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F0B2D50D302518DCAD9BE71B39CA23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE84FC806893D32075048C6A22EAC8D /* Pods-e P ONE For iPadTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01794414CCB8FD8696F30FDBB57287E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A359FC512E452A99C64450096716A9 /* Pods-e P ONE For iPadUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41BA0B9DF659DFEB90E3CA2EFCCD45BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33DAA9FBC7A5585A0CE65B4380F22F2 /* Pods-e P ONE For iPadTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPadTests/Pods-e P ONE For iPadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F88BCD44FBAC7C2B4E2143EE2FFBD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9A2523D225CC03ADFB8DF1B87035CD /* Pods-e P ONE For iPadUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPadUITests/Pods-e P ONE For iPadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E3F2F247289DB00CD8CCF5F36B4EC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5702D28A3017F3B8742D28CD800BF9AC /* Pods-e P ONE For iPad.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPad/Pods-e P ONE For iPad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C6E0B98BE7F69A8EAC83EE327C6FDF5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C41E65967F482FE90C194DB7319E96 /* Pods-e P ONE For iPadTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPadTests/Pods-e P ONE For iPadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D8A007E05B3DE89619CB0A9BCD772D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D945AFA5983A2E7351242AA07FB3CA /* Pods-e P ONE For iPad.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPad/Pods-e P ONE For iPad.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA7077C78101DA97C863146FC8D483A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AC6EF5EF1F31CEB15AA1B7EC20ECCB /* Pods-e P ONE For iPadUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-e P ONE For iPadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-e P ONE For iPadUITests/Pods-e P ONE For iPadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_e_P_ONE_For_iPadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C633AB9F117EDD261862D4EAB12077 /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3F2F247289DB00CD8CCF5F36B4EC34 /* Debug */,
+				D8A007E05B3DE89619CB0A9BCD772D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F4673BE7D8784BC4601330F34D167D /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E0B98BE7F69A8EAC83EE327C6FDF5C /* Debug */,
+				41BA0B9DF659DFEB90E3CA2EFCCD45BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD09CC4B9BA9AFC3E05267CEE7106E87 /* Build configuration list for PBXNativeTarget "Pods-e P ONE For iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7077C78101DA97C863146FC8D483A7 /* Debug */,
+				5F88BCD44FBAC7C2B4E2143EE2FFBD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
